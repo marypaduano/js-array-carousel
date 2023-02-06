@@ -3,11 +3,17 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
 img{
     width: 100%;
 	aspect-ratio: 16/9;
 	object-fit: cover;
 	object-position: center;
+    border-radius: 20px;
 }
 
 .slide.active {
