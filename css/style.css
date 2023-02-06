@@ -1,0 +1,42 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+	object-position: center;
+}
+
+.slide.active {
+	display: block;
+}
+
+.slide {
+	display: none;
+}
+
+.carousel {
+	position: relative;
+}
+
+.carousel_arrow {
+	position: absolute;
+	font-size: 52px;
+	color: white;
+    background-color: rgba(42, 42, 42, 0.586);
+    border-radius: 15px;
+    padding: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carousel_arrow.arrow-left {
+	left: 20px;
+}
+
+.carousel_arrow.arrow-right {
+	right: 20px;
+}
